@@ -1,15 +1,15 @@
 palette = "catppuccin_macchiato"
 
 format = """
-[](Red)\
+[](fg:red)\
 $os\
 $username\
-[](bg:Peach fg:Red)\
+[](bg:peach fg:red)\
 $directory\
-[](fg:Peach bg:Green)\
+[](fg:peach bg:green)\
 $git_branch\
 $git_status\
-[](fg:Green bg:Blue)\
+[](fg:green bg:blue)\
 $c\
 $elixir\
 $elm\
@@ -22,7 +22,7 @@ $nodejs\
 $nim\
 $rust\
 $scala\
-[](fg:Blue bg:#06969A)\
+[](fg:blue bg:#06969A)\
 $docker_context\
 [](fg:#06969A)\
 $fill\
@@ -50,7 +50,7 @@ disabled = true
 # An alternative to the username module which displays a symbol that
 # represents the current operating system
 [os]
-style = "bg:Red fg:Sapphire"
+style = "bg:red fg:sapphire"
 disabled = false             # Disabled by default
 
 [os.symbols]
@@ -58,7 +58,7 @@ Garuda = "󰣇 "
 Arch = "󰣇 "
 
 [directory]
-style = "bg:Peach fg:Surface1"
+style = "bg:peach fg:surface1"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -78,7 +78,7 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
@@ -88,75 +88,75 @@ format = '[ $symbol $context ]($style)'
 
 [elixir]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:Green fg:Surface1"
+style = "bg:green fg:surface1"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:Green fg:Surface1"
+style = "bg:green fg:surface1"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [gradle]
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = "󰆥 "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [php]
 symbol = "🐘 "
-style = "bg:Blue"
+style = "bg:blue"
 format = '[ $symbol ($version) ]($style)'
 
 [cmd_duration]
 min_time = 0
-style = "bg:sapphire fg:Surface1"
+style = "bg:sapphire fg:surface1"
 format = '[ $duration ]($style)'
 
 [fill]
