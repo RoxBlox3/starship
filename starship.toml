@@ -9,7 +9,8 @@ $directory\
 [](fg:peach bg:green)\
 $git_branch\
 $git_status\
-[](fg:green bg:blue)\
+[](fg:Green bg:Blue)\
+$python\
 $c\
 $elixir\
 $elm\
@@ -75,6 +76,12 @@ truncation_symbol = "…/"
 # will not be replaced, because "Documents" was already substituted before.
 # So either put "Important Documents" before "Documents" or use the substituted version:
 # "Important 󰈙 " = " 󰈙 "
+
+[python]
+symbol = "󰌠 "
+style = "bg:Blue"
+format = '[ $symbol ($version)(\($virtualenv\)) ]($style)'
+pyenv_version_name = true
 
 [c]
 symbol = " "
